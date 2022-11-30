@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['data_19',['Data',['../namespace_esport_1_1_data.html',1,'Esport']]],
+  ['editlocation_20',['EditLocation',['../interface_esport_1_1_logic_1_1_i_location_logic.html#af7511f6b0c08a63161bf0ccca2b37397',1,'Esport.Logic.ILocationLogic.EditLocation()'],['../class_esport_1_1_logic_1_1_location_logic.html#a8bcbcea2022a9d69c717526295a99496',1,'Esport.Logic.LocationLogic.EditLocation()'],['../interface_esport_1_1_repository_1_1_i_location_repository.html#aa8819ae0f17cf510c570f16d5fed88b5',1,'Esport.Repository.ILocationRepository.EditLocation()'],['../class_esport_1_1_repository_1_1_location_repository.html#ab512f9baa5eae22d40c55598cb2cd020',1,'Esport.Repository.LocationRepository.EditLocation()']]],
+  ['editmatch_21',['EditMatch',['../interface_esport_1_1_logic_1_1_i_match_logic.html#a84c856a9d1c9ba32a34390bd2edbf217',1,'Esport.Logic.IMatchLogic.EditMatch()'],['../class_esport_1_1_logic_1_1_match_logic.html#a469f6f315b158eaa444317fd9a8986c8',1,'Esport.Logic.MatchLogic.EditMatch()'],['../interface_esport_1_1_repository_1_1_i_match_repository.html#a7f43ac31529a0a9d66c6dd5740d6bc5f',1,'Esport.Repository.IMatchRepository.EditMatch()'],['../class_esport_1_1_repository_1_1_match_repository.html#a01bbe35ca6dd8213096abe76cc6d037b',1,'Esport.Repository.MatchRepository.EditMatch()']]],
+  ['editteam_22',['EditTeam',['../interface_esport_1_1_logic_1_1_i_team_logic.html#af30146db87b93e190e51f0c9d283e6e9',1,'Esport.Logic.ITeamLogic.EditTeam()'],['../class_esport_1_1_logic_1_1_team_logic.html#a0cca89ccb6eef9bc0a3f85b8cb77ec6e',1,'Esport.Logic.TeamLogic.EditTeam()'],['../interface_esport_1_1_repository_1_1_i_team_repository.html#a4e830cdc288b4af0d55dcb143a0d649d',1,'Esport.Repository.ITeamRepository.EditTeam()'],['../class_esport_1_1_repository_1_1_team_repository.html#afe3e69f65925f3a6c3358d312c2592a5',1,'Esport.Repository.TeamRepository.EditTeam()']]],
+  ['elemez_23',['Elemez',['../class_esport_1_1_logic_1_1_team_logic.html#ad8e6983e47b677941d36497b06ef1b5e',1,'Esport::Logic::TeamLogic']]],
+  ['elemeztask_24',['ElemezTask',['../class_esport_1_1_logic_1_1_team_logic.html#ae191b27e69f0aefecd44c0ed439060fd',1,'Esport::Logic::TeamLogic']]],
+  ['enterid_25',['EnterID',['../class_messages_1_1_message.html#a1b2522b4375613f8fecdc691c9a0d866',1,'Messages::Message']]],
+  ['enternewwins_26',['EnterNewWins',['../class_messages_1_1_message.html#af04149abfbb0af4c14619f0bcb6f8d71',1,'Messages::Message']]],
+  ['esport_27',['Esport',['../namespace_esport.html',1,'']]],
+  ['esport_2edata_2eassemblyinfo_2ecs_28',['Esport.Data.AssemblyInfo.cs',['../_debug_2netcoreapp3_81_2_esport_8_data_8_assembly_info_8cs.html',1,'(Global Namespace)'],['../_release_2netcoreapp3_81_2_esport_8_data_8_assembly_info_8cs.html',1,'(Global Namespace)']]],
+  ['esport_2edata_2ecsproj_2efilelistabsolute_2etxt_29',['Esport.Data.csproj.FileListAbsolute.txt',['../_esport_8_data_8csproj_8_file_list_absolute_8txt.html',1,'']]],
+  ['esport_2elogic_2eassemblyinfo_2ecs_30',['Esport.Logic.AssemblyInfo.cs',['../_debug_2netcoreapp3_81_2_esport_8_logic_8_assembly_info_8cs.html',1,'(Global Namespace)'],['../_release_2netcoreapp3_81_2_esport_8_logic_8_assembly_info_8cs.html',1,'(Global Namespace)']]],
+  ['esport_2elogic_2ecsproj_2efilelistabsolute_2etxt_31',['Esport.Logic.csproj.FileListAbsolute.txt',['../_esport_8_logic_8csproj_8_file_list_absolute_8txt.html',1,'']]],
+  ['esport_2elogic_2etest_2eassemblyinfo_2ecs_32',['Esport.Logic.Test.AssemblyInfo.cs',['../_debug_2netcoreapp3_81_2_esport_8_logic_8_test_8_assembly_info_8cs.html',1,'(Global Namespace)'],['../_release_2netcoreapp3_81_2_esport_8_logic_8_test_8_assembly_info_8cs.html',1,'(Global Namespace)']]],
+  ['esport_2elogic_2etest_2ecsproj_2efilelistabsolute_2etxt_33',['Esport.Logic.Test.csproj.FileListAbsolute.txt',['../_esport_8_logic_8_test_8csproj_8_file_list_absolute_8txt.html',1,'']]],
+  ['esport_2eprogram_2eassemblyinfo_2ecs_34',['Esport.Program.AssemblyInfo.cs',['../_debug_2netcoreapp3_81_2_esport_8_program_8_assembly_info_8cs.html',1,'(Global Namespace)'],['../_release_2netcoreapp3_81_2_esport_8_program_8_assembly_info_8cs.html',1,'(Global Namespace)']]],
+  ['esport_2eprogram_2ecsproj_2efilelistabsolute_2etxt_35',['Esport.Program.csproj.FileListAbsolute.txt',['../_esport_8_program_8csproj_8_file_list_absolute_8txt.html',1,'']]],
+  ['esport_2erepository_2eassemblyinfo_2ecs_36',['Esport.Repository.AssemblyInfo.cs',['../_debug_2netcoreapp3_81_2_esport_8_repository_8_assembly_info_8cs.html',1,'(Global Namespace)'],['../_release_2netcoreapp3_81_2_esport_8_repository_8_assembly_info_8cs.html',1,'(Global Namespace)']]],
+  ['esport_2erepository_2ecsproj_2efilelistabsolute_2etxt_37',['Esport.Repository.csproj.FileListAbsolute.txt',['../_esport_8_repository_8csproj_8_file_list_absolute_8txt.html',1,'']]],
+  ['esportdbcontext_38',['EsportDbContext',['../class_esport_1_1_data_1_1_esport_db_context.html',1,'Esport.Data.EsportDbContext'],['../class_esport_1_1_data_1_1_esport_db_context.html#ae586f27f3636c25db379fc99ea04629d',1,'Esport.Data.EsportDbContext.EsportDbContext()'],['../class_esport_1_1_data_1_1_esport_db_context.html#a127550960c37ab52a7533c163c4fdfb0',1,'Esport.Data.EsportDbContext.EsportDbContext(DbContextOptions&lt; EsportDbContext &gt; options)']]],
+  ['esportdbcontext_2ecs_39',['EsportDbContext.cs',['../_esport_db_context_8cs.html',1,'']]],
+  ['logic_40',['Logic',['../namespace_esport_1_1_logic.html',1,'Esport']]],
+  ['program_41',['Program',['../namespace_esport_1_1_program.html',1,'Esport']]],
+  ['repository_42',['Repository',['../namespace_esport_1_1_repository.html',1,'Esport']]],
+  ['test_43',['Test',['../namespace_esport_1_1_logic_1_1_test.html',1,'Esport::Logic']]]
+];

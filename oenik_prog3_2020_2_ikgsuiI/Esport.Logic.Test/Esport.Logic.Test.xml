@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Esport.Logic.Test</name>
+    </assembly>
+    <members>
+        <member name="T:Esport.Logic.Test.Mock">
+            <summary>
+            The mock class.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.Test.Mock.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Esport.Logic.Test.Mock"/> class.
+            Mock constructor.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.Test.Mock.TestTeamAdd">
+            <summary>
+            A.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.Test.Mock.TestTeamDelete">
+            <summary>
+            A.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.Test.Mock.TestLocationInsert">
+            <summary>
+            Tests the location inserts.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.Test.Mock.TestMatchAdd">
+            <summary>
+            Test.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.Test.Mock.TestTeamGetAll">
+            <summary>
+            Test.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.Test.Mock.TestMatchGetone">
+            <summary>
+            Test.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.Test.Mock.TestGetAverages">
+            <summary>
+            A.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.Test.Mock.TeamsNum">
+            <summary>
+            Tests the number of the teams.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.Test.Mock.LocCap">
+            <summary>
+            Tests the capacity of the locations.
+            </summary>
+        </member>
+    </members>
+</doc>

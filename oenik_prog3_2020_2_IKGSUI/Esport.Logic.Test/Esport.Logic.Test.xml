@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Esport.Logic.Test</name>
+    </assembly>
+    <members>
+        <member name="T:Esport.Logic.Test.GlobalSuppressions">
+            <summary>
+            Surpresses the CA1014 warning.
+            </summary>
+        </member>
+    </members>
+</doc>

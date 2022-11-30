@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Esport.Repository</name>
+    </assembly>
+    <members>
+        <member name="T:Esport.Repository.INterfaces`1">
+            <summary>
+            Repository.
+            </summary>
+            <typeparam name="T">Repository interface.</typeparam>
+        </member>
+        <member name="M:Esport.Repository.INterfaces`1.GetAll">
+            <summary>
+            Gets all the queryable entitys.
+            </summary>
+            <returns>An entity.</returns>
+        </member>
+        <member name="T:Esport.Repository.ITeamRepository">
+            <summary>
+            Team Repository.
+            </summary>
+        </member>
+        <member name="M:Esport.Repository.ITeamRepository.ChangeTeamWins(System.Int32,System.Int32)">
+            <summary>
+            Changes the team wins.
+            </summary>
+            <param name="id">Gets a team by id.</param>
+            <param name="newWins">Changes the wins.</param>
+        </member>
+        <member name="M:Esport.Repository.ITeamRepository.GetOneTeam(System.Int32)">
+            <summary>
+            Gets one team.
+            </summary>
+            <param name="id">Gets a team by id.</param>
+            <returns>A team entity.</returns>
+        </member>
+        <member name="M:Esport.Repository.ITeamRepository.GetAll">
+            <summary>
+            Gets all the teams.
+            </summary>
+            <returns>A collection of teams.</returns>
+        </member>
+        <member name="M:Esport.Repository.ITeamRepository.Addteam(Esport.Data.Team)">
+            <summary>
+            Adds a team.
+            </summary>
+            <param name="t">A team entity.</param>
+        </member>
+        <member name="M:Esport.Repository.ITeamRepository.DeleteTeam(Esport.Data.Team)">
+            <summary>
+            Deletes a team.
+            </summary>
+            <param name="t">A team entity.</param>
+        </member>
+        <member name="M:Esport.Repository.ITeamRepository.EditTeam(Esport.Data.Team)">
+            <summary>
+            Edits a team.
+            </summary>
+            <param name="t">A team entity.</param>
+        </member>
+        <member name="T:Esport.Repository.ILocationRepository">
+            <summary>
+            Location repository interface.
+            </summary>
+        </member>
+        <member name="M:Esport.Repository.ILocationRepository.ChangeLocationName(System.Int32,System.String)">
+            <summary>
+            Changes a locations name.
+            </summary>
+            <param name="id">Gets a location by id.</param>
+            <param name="newName">Cahnges a location name.</param>
+        </member>
+        <member name="M:Esport.Repository.ILocationRepository.GetOneLocationById(System.Int32)">
+            <summary>
+            Gets one location by id.
+            </summary>
+            <param name="id">Gets a location by id.</param>
+            <returns>A location entity.</returns>
+        </member>
+        <member name="M:Esport.Repository.ILocationRepository.GetAll">
+            <summary>
+            Gets all the locations.
+            </summary>
+            <returns>Location.</returns>
+        </member>
+        <member name="M:Esport.Repository.ILocationRepository.AddLocation(Esport.Data.Location)">
+            <summary>
+            Adds a location.
+            </summary>
+            <param name="l">Gets a location entity.</param>
+        </member>
+        <member name="M:Esport.Repository.ILocationRepository.Deletelocation(Esport.Data.Location)">
+            <summary>
+            Deletes a location.
+            </summary>
+            <param name="l">Gets a location entity.</param>
+        </member>
+        <member name="M:Esport.Repository.ILocationRepository.EditLocation(Esport.Data.Location)">
+            <summary>
+            Edits a location.
+            </summary>
+            <param name="l">Gets a location entity.</param>
+        </member>
+        <member name="T:Esport.Repository.IMatchRepository">
+            <summary>
+            Match repository.
+            </summary>
+        </member>
+        <member name="M:Esport.Repository.IMatchRepository.ChangeMatchLocation(System.Int32,System.String)">
+            <summary>
+            Changes the match location.
+            </summary>
+            <param name="id">Gets a match by id.</param>
+            <param name="newLocation">Changes a location name.</param>
+        </member>
+        <member name="M:Esport.Repository.IMatchRepository.GetoneMatchByID(System.Int32)">
+            <summary>
+            Gets a match by id.
+            </summary>
+            <param name="id">Getting am atch by id.</param>
+            <returns>A match entity.</returns>
+        </member>
+        <member name="M:Esport.Repository.IMatchRepository.DeleteMatch(Esport.Data.Match)">
+            <summary>
+            Deletes a match.
+            </summary>
+            <param name="m">A match entity.</param>
+        </member>
+        <member name="M:Esport.Repository.IMatchRepository.GetAll">
+            <summary>
+            Gets all the matches.
+            </summary>
+            <returns>A collection of matches.</returns>
+        </member>
+        <member name="M:Esport.Repository.IMatchRepository.Addmatch(Esport.Data.Match)">
+            <summary>
+            Adds a match.
+            </summary>
+            <param name="m">A match entity.</param>
+        </member>
+        <member name="M:Esport.Repository.IMatchRepository.EditMatch(Esport.Data.Match)">
+            <summary>
+            Edits a match.
+            </summary>
+            <param name="m">A match entity.</param>
+        </member>
+        <member name="T:Esport.Repository.LocationRepository">
+            <summary>
+            Location repository class.
+            </summary>
+        </member>
+        <member name="M:Esport.Repository.LocationRepository.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Esport.Repository.LocationRepository"/> class.
+            Constructor.
+            </summary>
+            <param name="ctx">The database context.</param>
+        </member>
+        <member name="M:Esport.Repository.LocationRepository.GetAll">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Repository.LocationRepository.ChangeLocationName(System.Int32,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Repository.LocationRepository.GetOneLocationById(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Repository.LocationRepository.GetoneMatchByID(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Repository.LocationRepository.AddLocation(Esport.Data.Location)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Repository.LocationRepository.Deletelocation(Esport.Data.Location)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Repository.LocationRepository.EditLocation(Esport.Data.Location)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Esport.Repository.MatchRepository">
+            <summary>
+            Match repository class.
+            </summary>
+        </member>
+        <member name="M:Esport.Repository.MatchRepository.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Esport.Repository.MatchRepository"/> class.
+            Constructor.
+            </summary>
+            <param name="ctx">The DB context entity.</param>
+        </member>
+        <member name="M:Esport.Repository.MatchRepository.ChangeMatchLocation(System.Int32,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Repository.MatchRepository.ChangeMatchName(System.Int32,System.String)">
+            <summary>
+            Changes the match name.
+            </summary>
+            <param name="id">Gets a macth by id.</param>
+            <param name="newstring">Updates the match name.</param>
+        </member>
+        <member name="M:Esport.Repository.MatchRepository.GetoneMatchByID(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Repository.MatchRepository.GetAll">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Repository.MatchRepository.Addmatch(Esport.Data.Match)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Repository.MatchRepository.DeleteMatch(Esport.Data.Match)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Repository.MatchRepository.EditMatch(Esport.Data.Match)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Esport.Repository.Repositor`1">
+            <summary>
+            Repository class.
+            </summary>
+            <typeparam name="T">Generic.</typeparam>
+        </member>
+        <member name="F:Esport.Repository.Repositor`1.Ctx">
+            <summary>
+            The database ctx.
+            </summary>
+        </member>
+        <member name="M:Esport.Repository.Repositor`1.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Esport.Repository.Repositor`1"/> class.
+            </summary>
+            /// <param name="ctx">DbContext parameter.</param>
+        </member>
+        <member name="M:Esport.Repository.Repositor`1.GetAll">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Repository.Repositor`1.GetoneMatchByID(System.Int32)">
+            <summary>
+            Gets a match by id.
+            </summary>
+            <param name="id">Gets one match by id.</param>
+            <returns>Generic T type.</returns>
+        </member>
+        <member name="T:Esport.Repository.TeamRepository">
+            <summary>
+            Team repository class.
+            </summary>
+        </member>
+        <member name="M:Esport.Repository.TeamRepository.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Esport.Repository.TeamRepository"/> class.
+            Constructor.
+            </summary>
+            <param name="ctx">The database context.</param>
+        </member>
+        <member name="M:Esport.Repository.TeamRepository.GetOneTeam(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Repository.TeamRepository.ChangeTeamWins(System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Repository.TeamRepository.GetoneMatchByID(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Repository.TeamRepository.GetAll">
+            <summary>
+            Initializes a new instance of the <see cref="T:Esport.Repository.TeamRepository"/> class.
+            </summary>
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Repository.TeamRepository.Addteam(Esport.Data.Team)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Repository.TeamRepository.DeleteTeam(Esport.Data.Team)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Repository.TeamRepository.EditTeam(Esport.Data.Team)">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

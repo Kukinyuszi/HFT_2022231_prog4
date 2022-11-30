@@ -1,0 +1,428 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Esport.Logic</name>
+    </assembly>
+    <members>
+        <member name="T:Esport.Logic.AveragesResult">
+            <summary>
+            Average result class.
+            </summary>
+        </member>
+        <member name="P:Esport.Logic.AveragesResult.Name">
+            <summary>
+            Gets or sets the Name of the element.
+            </summary>
+        </member>
+        <member name="P:Esport.Logic.AveragesResult.Wins">
+            <summary>
+            Gets or sets the Wins of the element.
+            </summary>
+        </member>
+        <member name="P:Esport.Logic.AveragesResult.BettedAmount">
+            <summary>
+            Gets or sets betted amount.
+            </summary>
+        </member>
+        <member name="P:Esport.Logic.AveragesResult.ID">
+            <summary>
+             Gets or sets the id.
+            </summary>
+        </member>
+        <member name="P:Esport.Logic.AveragesResult.Match">
+            <summary>
+            Gets or sets the Match.
+            </summary>
+        </member>
+        <member name="P:Esport.Logic.AveragesResult.Odd">
+            <summary>
+            Gets or sets the odd.
+            </summary>
+        </member>
+        <member name="P:Esport.Logic.AveragesResult.MatchID">
+            <summary>
+            Gets or sets the Match id.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.AveragesResult.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="T:Esport.Logic.IBetting">
+            <summary>
+            The IBetting interface.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.IBetting.Bet(System.Int32,System.Int32)">
+            <summary>
+            Bet.
+            </summary>
+            <param name="teamid">Bets to a team by id.</param>
+            <param name="amount">Bets an amount for the team.</param>
+        </member>
+        <member name="M:Esport.Logic.IBetting.ListAllBettings">
+            <summary>
+            Lists the all bettings.
+            </summary>
+            <returns>List.</returns>
+        </member>
+        <member name="T:Esport.Logic.IOddsGenerator">
+            <summary>
+            Generates the odds.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.IOddsGenerator.OddGenerator(System.Int32)">
+            <summary>
+            Generates the odds.
+            </summary>
+            <param name="teamid">Generates an odd to a team.</param>
+        </member>
+        <member name="T:Esport.Logic.ILocationLogic">
+            <summary>
+            Location logic.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.ILocationLogic.AddLocation(Esport.Data.Location)">
+            <summary>
+            Adds a location.
+            </summary>
+            <param name="l">Gets a location "l" entity.</param>
+        </member>
+        <member name="M:Esport.Logic.ILocationLogic.ChangeLocationName(System.Int32,System.String)">
+            <summary>
+            Changes a locations name.
+            </summary>
+            <param name="id">Gets a location id.</param>
+            <param name="newName">Sets the new location name.</param>
+        </member>
+        <member name="M:Esport.Logic.ILocationLogic.DeleteLocation(System.Int32)">
+            <summary>
+            Deletes a location.
+            </summary>
+            <param name="id">Gets a location id.</param>
+        </member>
+        <member name="M:Esport.Logic.ILocationLogic.EditLocation(System.Int32)">
+            <summary>
+            Edits a location.
+            </summary>
+            <param name="id">Gets a location id.</param>
+        </member>
+        <member name="M:Esport.Logic.ILocationLogic.GetAllLocations">
+            <summary>
+            Gets all the locations.
+            </summary>
+            <returns>A location entity.</returns>
+        </member>
+        <member name="M:Esport.Logic.ILocationLogic.GetLocationById(System.Int32)">
+            <summary>
+            Gets a location by id.
+            </summary>
+            <param name="id">Gets an id.</param>
+            <returns>Returns a location entity.</returns>
+        </member>
+        <member name="T:Esport.Logic.IMatchLogic">
+            <summary>
+            The match logic.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.IMatchLogic.AddMatch(Esport.Data.Match)">
+            <summary>
+            Add a match.
+            </summary>
+            <param name="m">A match entity.</param>
+        </member>
+        <member name="M:Esport.Logic.IMatchLogic.ChangeMatchLocation(System.Int32,System.String)">
+            <summary>
+            Changes a match location.
+            </summary>
+            <param name="id">Gets a match by id.</param>
+            <param name="newLocation">Changes a match location name.</param>
+        </member>
+        <member name="M:Esport.Logic.IMatchLogic.DeleteMatch(System.Int32)">
+            <summary>
+            Deletes a match.
+            </summary>
+            <param name="id">Deletes a match by id.</param>
+        </member>
+        <member name="M:Esport.Logic.IMatchLogic.EditMatch(System.Int32)">
+            <summary>
+            Edits a match.
+            </summary>
+            <param name="id">Gets and edites a match by id.</param>
+        </member>
+        <member name="M:Esport.Logic.IMatchLogic.GetAllMatches">
+            <summary>
+            Gets all the matches.
+            </summary>
+            <returns>List.</returns>
+        </member>
+        <member name="M:Esport.Logic.IMatchLogic.GetoneMatchById(System.Int32)">
+            <summary>
+            Gets one match by ID.
+            </summary>
+            <param name="id">Gets one match by id.</param>
+            <returns>Match.</returns>
+        </member>
+        <member name="M:Esport.Logic.IMatchLogic.Matchmake">
+            <summary>
+            Making a match.
+            </summary>
+            <returns>Match.</returns>
+        </member>
+        <member name="T:Esport.Logic.ITeamLogic">
+            <summary>
+            Team logic.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.ITeamLogic.Addteam(Esport.Data.Team)">
+            <summary>
+            Adds a team.
+            </summary>
+            <param name="t">A team entity.</param>
+        </member>
+        <member name="M:Esport.Logic.ITeamLogic.ChangeTeamWins(System.Int32,System.Int32)">
+            <summary>
+            Changes the wins of the team.
+            </summary>
+            <param name="id">Gets a team by id wich wins going to be edited.</param>
+            <param name="newWins">Changes the team wins.</param>
+        </member>
+        <member name="M:Esport.Logic.ITeamLogic.DeleteTeam(Esport.Data.Team)">
+            <summary>
+            Deletes a team.
+            </summary>
+            <param name="t">Deletes a team by the team entity parameter.</param>
+        </member>
+        <member name="M:Esport.Logic.ITeamLogic.EditTeam(System.Int32)">
+            <summary>
+            Edits a team.
+            </summary>
+            <param name="id">Edites a team by id.</param>
+        </member>
+        <member name="M:Esport.Logic.ITeamLogic.GetAllTeams">
+            <summary>
+            Gets all the teams.
+            </summary>
+            <returns>A list of all the teams.</returns>
+        </member>
+        <member name="M:Esport.Logic.ITeamLogic.GetTeamById(System.Int32)">
+            <summary>
+            Gets a team by id.
+            </summary>
+            <param name="id">Gets a team by id .</param>
+            <returns>Retuens a team entity.</returns>
+        </member>
+        <member name="T:Esport.Logic.LocationLogic">
+            <summary>
+            Location logic.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.LocationLogic.#ctor(Esport.Repository.ILocationRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Esport.Logic.LocationLogic"/> class.
+            The constructor of the Location logic.
+            </summary>
+            <param name="loc">Gets an ILocationRepository interface parameter.</param>
+        </member>
+        <member name="M:Esport.Logic.LocationLogic.AddLocation(Esport.Data.Location)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Logic.LocationLogic.ChangeLocationName(System.Int32,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Logic.LocationLogic.DeleteLocation(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Logic.LocationLogic.EditLocation(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Logic.LocationLogic.GetAllLocations">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Logic.LocationLogic.GetLocationById(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Esport.Logic.MatchLogic">
+            <summary>
+            Match logic.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.MatchLogic.#ctor(Esport.Repository.IMatchRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Esport.Logic.MatchLogic"/> class.
+            MatchLogic Constructor.
+            </summary>
+            <param name="matchrepo">The Repository parameter of the Matchlogic entity.</param>
+        </member>
+        <member name="M:Esport.Logic.MatchLogic.#ctor(Esport.Repository.ITeamRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Esport.Logic.MatchLogic"/> class.
+            </summary>
+            <param name="teamrepo">The Repository parameter of the Matchlogic entity.</param>
+        </member>
+        <member name="M:Esport.Logic.MatchLogic.#ctor(Esport.Repository.ILocationRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Esport.Logic.MatchLogic"/> class.
+            </summary>
+            <param name="locrepo">The Repository parameter of the Matchlogic entity.</param>
+        </member>
+        <member name="M:Esport.Logic.MatchLogic.#ctor(Esport.Repository.ILocationRepository,Esport.Repository.ITeamRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Esport.Logic.MatchLogic"/> class.
+            </summary>
+            <param name="locrepo">The Repository parameter of the Matchlogic entit.</param>
+            <param name="teamrepo">The Repository parameter of the Matchlogic entity.</param>
+        </member>
+        <member name="M:Esport.Logic.MatchLogic.AddMatch(Esport.Data.Match)">
+            <summary>
+            Adds a match.
+            </summary>
+            <param name="m">The Match entity for the AddMatch method.</param>
+        </member>
+        <member name="M:Esport.Logic.MatchLogic.ChangeMatchLocation(System.Int32,System.String)">
+            <summary>
+            Changes a match location.
+            </summary>
+            <param name="id">Gets the id of the match.</param>
+            <param name="newLocation">Changes the location of the match.</param>
+        </member>
+        <member name="M:Esport.Logic.MatchLogic.DeleteMatch(System.Int32)">
+            <summary>
+            Deletes a match.
+            </summary>
+            <param name="id">Deletes the match by the given id.</param>
+        </member>
+        <member name="M:Esport.Logic.MatchLogic.EditMatch(System.Int32)">
+            <summary>
+            Edits a match.
+            </summary>
+            <param name="id">Edites the match by the given id.</param>
+        </member>
+        <member name="M:Esport.Logic.MatchLogic.GetAllMatches">
+            <summary>
+            Gets all the matches.
+            </summary>
+            <returns>Lists the all matches.</returns>
+        </member>
+        <member name="M:Esport.Logic.MatchLogic.GetoneMatchById(System.Int32)">
+            <summary>
+            Gets one match by id.
+            </summary>
+            <param name="id">Gets a match by id.</param>
+            <returns>Return a Match entity.</returns>
+        </member>
+        <member name="M:Esport.Logic.MatchLogic.OddsGenerator">
+            <summary>
+            Random odd generator for every team.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.MatchLogic.GetTeamAverages">
+            <summary>
+            Get the average team wins.
+            </summary>
+            <returns>List.</returns>
+        </member>
+        <member name="M:Esport.Logic.MatchLogic.Matchmake">
+            <inheritdoc/>
+        </member>
+        <member name="T:Esport.Logic.TeamLogic">
+            <summary>
+            Teamlogic.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Esport.Logic.TeamLogic"/> class.
+            The constructor of the TeamLogic object.
+            </summary>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.#ctor(Esport.Repository.ITeamRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Esport.Logic.TeamLogic"/> class.
+            TeamLogic constructor.
+            </summary>
+            <param name="rep">Gets the repository parameter.</param>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.Task">
+            <summary>
+            Retuns a task.
+            </summary>
+            <returns>A task.<see cref="T:System.Threading.Tasks.Task"/> representing the result of the asynchronous operation.</returns>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.Getrepo">
+            <summary>
+            ITeamrepository.
+            </summary>
+            <returns>The Iteamrepository.</returns>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.Addteam(Esport.Data.Team)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.Bet(System.Int32,System.Int32)">
+            <summary>
+            Betting method.
+            </summary>
+            <param name="teamid">Gets a team by id.</param>
+            <param name="amount">Gets the amount of the betting.</param>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.ChangeTeamWins(System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.DeleteTeam(Esport.Data.Team)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.EditTeam(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.GetAllTeams">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.GetTeamById(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.ListAllBettings">
+            <summary>
+            Lists all the bettings for the teams.
+            </summary>
+            <returns>List.</returns>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.GetAverageWins">
+            <summary>
+            Returns the average wins.
+            </summary>
+            <returns>Double.</returns>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.Elemez">
+            <summary>
+            R.
+            </summary>
+            <returns>Task.</returns>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.ElemezTask">
+            <summary>
+             E.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task`1"/> representing the result of the asynchronous operation.</returns>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.OddLessThan3">
+            <summary>
+            Where the odd is less than 3.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task`1"/> representing the result of the asynchronous operation.</returns>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.OddLessThan3Task">
+            <summary>
+            Where the odd is less than 3 task.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task`1"/> representing the result of the asynchronous operation.</returns>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.OddGenerator(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Esport.Logic.TeamLogic.ReturnThisLogic">
+            <summary>
+            Returns a logic.
+            </summary>
+            <returns>A Teamlogic object.</returns>
+        </member>
+    </members>
+</doc>

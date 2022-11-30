@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Esport.Data</name>
+    </assembly>
+    <members>
+        <member name="M:Esport.Data.Team.ToString">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

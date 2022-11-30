@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Esport.Program</name>
+    </assembly>
+    <members>
+        <member name="T:Esport.Program.Factory">
+            <summary>
+            Factory class for creating the logic and repo parts for the program.
+            </summary>
+        </member>
+        <member name="P:Esport.Program.Factory.TeamLogic">
+            <summary>
+            Initializes a new instance of the <see cref="T:Esport.Program.Factory"/> class.
+            </summary>
+        </member>
+        <member name="T:Esport.Program.GlobalSuppressions">
+            <summary>
+            Surpresses the CA1014 warning.
+            </summary>
+        </member>
+        <member name="T:Esport.Program.Program">
+            <summary>
+            The main program.
+            </summary>
+        </member>
+        <member name="T:Messages.Message">
+            <summary>
+            The Message class.
+            </summary>
+        </member>
+        <member name="M:Messages.Message.Allteams">
+            <summary>
+            Writes : "ALL TEAMS".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.AllLocations">
+            <summary>
+            Writes : "ALL LOCATIONS".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.AllMatches">
+            <summary>
+            Writes : "ALL MATCHES".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.EnterID">
+            <summary>
+            Writes : "ENTER ID HERE: ".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.EnterNewWins">
+            <summary>
+            Writes : "ENTER NEW TEAM WINS HERE: ".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.NewTeamWins">
+            <summary>
+            Writes : "\n :: NEW TEAM WINS :: \n".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.TeamName">
+            <summary>
+            Writes : "TEAM NAME: ".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.TeamWins">
+            <summary>
+            Writes : "TEAM WINS: ".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.MatchName">
+            <summary>
+            Writes : "MATCH NAME: ".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.MatchLocation">
+            <summary>
+            Writes : "MATCH LOCATION: ".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.LocationName">
+            <summary>
+            Writes : "LOCATION NAME: ".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.LocationCap">
+            <summary>
+            Writes : "LOCATION CAP: ".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.TeamID">
+            <summary>
+            Writes : "TEAM ID: ".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.LocationID">
+            <summary>
+            Writes : "LOCATION ID".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.MatchID">
+            <summary>
+            Writes : "MATCH ID: ".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.BetAmount">
+            <summary>
+            Writes : "BET AMOUNT: ".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.NoBetsYet">
+            <summary>
+            Writes : "THERE ARE NO BETS YET.".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.SelectedTeam">
+            <summary>
+            Writes : "SELECTED TEAM: ".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.NotFound">
+            <summary>
+            Writes: "NOT FOUND".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Messages.Message.WrongFormat">
+            <summary>
+            Writes: "WRONG FORMAT".
+            </summary>
+            <returns>A string.</returns>
+        </member>
+    </members>
+</doc>
